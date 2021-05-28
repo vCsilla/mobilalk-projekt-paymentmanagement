@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPaymentActivity"
+    android:fitsSystemWindows="true"
+    app:menu="@menu/navigation_menu"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="598dp">
+
+        <TextView
+            android:id="@+id/addPaymentTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/antic"
+            android:text="Add your new payment"
+            android:textColor="@color/blue1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/addPaymentFillOutFieldsLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addPaymentTV"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/addPaymentNameTIL"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:hint="@string/paymentNameTIL"
+                android:textColorHint="@color/blue2"
+                app:boxStrokeColor="@color/blue1"
+                app:boxStrokeWidth="2dp"
+                app:hintTextColor="@color/blue2">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/paymentNameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/antic"
+                    android:inputType="textCapWords"
+                    android:textColor="@color/blue2"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/addPaymentAmountTIL"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:hint="@string/paymentAmountTIL"
+                android:textColorHint="@color/blue2"
+                app:boxStrokeColor="@color/blue1"
+                app:boxStrokeWidth="2dp"
+                app:hintTextColor="@color/blue2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/paymentAmountInput"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/antic"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/blue2"
+                        android:hint="@string/paymentAmountTIL"
+                        android:textColorHint="@color/blue2"
+                        app:boxStrokeColor="@color/blue1"
+                        app:boxStrokeWidth="2dp"
+                        app:hintTextColor="@color/blue2"
+                        android:background="@drawable/spinner_outline"/>
+
+                    <Spinner
+                        android:id="@+id/paymentAmountUnitSpinner"
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/spinner_outline"
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/addPaymentMethodTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addPaymentAmountTIL"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/antic"
+                android:text="@string/paymentMethodTV"
+                android:textColor="@color/blue1"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/paymentMethodSpinner"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/spinner_outline"
+                android:spinnerMode="dropdown"
+                android:layout_gravity="center"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/addPaymentDescriptionTIL"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:hint="@string/paymentDescriptionTIL"
+                android:textColorHint="@color/blue2"
+                app:boxStrokeColor="@color/blue1"
+                app:boxStrokeWidth="2dp"
+                app:hintTextColor="@color/blue2">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/paymentDescriptionInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/antic"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="@color/blue2"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/addPaymentStatusTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addPaymentDescriptionTIL"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/antic"
+                android:text="@string/paymentStatusTV"
+                android:textColor="@color/blue1"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/paymentStatusRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/paymentStatusPendingRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/antic"
+                    android:text="@string/paymentStatusPendingRB"
+                    android:textColor="@color/blue1"
+                    android:textFontWeight="1000" />
+
+                <RadioButton
+                    android:id="@+id/paymentStatusDoneRB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/antic"
+                    android:text="@string/paymentStatusDoneRB"
+                    android:textColor="@color/blue1"
+                    android:textFontWeight="1000" />
+
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/addPaymentButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/paymentStatusTV"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toStartOf="@+id/cancelPaymentButton"
+                    android:fontFamily="@font/antic"
+                    android:padding="6dp"
+                    android:text="@string/Add"/>
+
+                <Button
+                    android:id="@+id/cancelPaymentButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="80dp"
+                    android:backgroundTint="@color/delete_color"
+                    android:fontFamily="@font/antic"
+                    android:padding="6dp"
+                    android:text="@string/Cancel" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include
+        layout="@layout/bottom_navbar"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:backgroundTint="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_RL_expense"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:id="@+id/listLL_expense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp">
+
+                <TextView
+                    android:id="@+id/expensePaymentNameTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/blue1"
+                    android:textStyle="bold"
+                    android:text="@string/placeholder_paymentName"
+                    android:fontFamily="@font/antic"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="40dp"/>
+
+                <TextView
+                    android:id="@+id/expensePaymentAmountTV"
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/antic"
+                    android:gravity="end"
+                    android:padding="6dp"
+                    android:text="@string/placeholder_paymentAmount"
+                    android:textColor="@color/money"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listLL2_expense"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="30dp">
+                <TextView
+                    android:id="@+id/expensePaymentMethodTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/placeholder_paymentMethod"
+                    android:fontFamily="@font/antic"
+                    android:textColor="@color/blue2"
+                    android:layout_marginEnd="40dp"/>
+
+                <TextView
+                    android:id="@+id/expensePaymentStatusTV"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/antic"
+                    android:gravity="end"
+                    android:padding="6dp"
+                    android:text="@string/placeholder_paymentStatus"
+                    android:textColor="@color/blue2" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expensePaymentDescriptionTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_paymentDescription"
+                android:padding="6dp"
+                android:layout_below="@+id/listLL2_expense"
+                android:fontFamily="@font/antic"
+                android:textColor="@color/blue2"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

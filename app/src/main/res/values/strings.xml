@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Payment Management</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="Email">Email</string>
+    <string name="passwordAgain">Password Confirm</string>
+    <string name="accountType">Account Type</string>
+    <string name="personal">Personal</string>
+    <string name="company">Company</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+    <string name="addExpense">Add a payment</string>
+    <string name="placeholder_paymentName">Payment Name</string>
+    <string name="placeholder_paymentAmount">Payment Amount</string>
+    <string name="placeholder_paymentMethod">Payment Method</string>
+    <string name="placeholder_paymentItem">Payment Items</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="placeholder_paymentDescription">Payment Dscription</string>
+    <string name="placeholder_paymentDate">Payment Date</string>
+    <string name="placeholder_paymentStatus">Payment Status</string>
+    <string name="paymentNameTIL">Payment Name</string>
+    <string name="paymentAmountTIL">Payment Amount</string>
+    <string name="paymentDescriptionTIL">Payment Description</string>
+    <string name="paymentStatusTV">Payment Status</string>
+    <string name="paymentStatusPendingRB">Pending</string>
+    <string name="paymentStatusDoneRB">Done</string>
+    <string name="paymentMethodTV">Payment Method</string>
+    <string name="Add">Add</string>
+    <string name="Cancel">Cancel</string>
+    <string name="editPaymentNameTIL">Edit Payment Name</string>
+    <string name="editPaymentAmountTIL">Edit Payment Amount</string>
+    <string name="editPaymentMethodTV">Edit Payment Method</string>
+    <string name="editPaymentDescriptionTIL">Edit Payment Description</string>
+    <string name="editPaymentStatusPendingRB">Pending</string>
+    <string name="editPaymentStatusDoneRB">Done</string>
+    <string name="Submit">Submit</string>
+    <string name="orderByStatusRB">Order by Status</string>
+    <string name="orderByMethodRB">Order by Method</string>
+    <string name="RetrievedData">Retrieved Card Payments</string>
+    <string name="Order">Order</string>
+    <string name="whereEqualToPendingRB">Pending</string>
+    <string name="whereEqualToDoneRB">Done</string>
+    <string name="Filter">Filter</string>
+    <string name="filterExpense">Filter</string>
+    <string-array name="payment_methods">
+        <item>Cash</item>
+        <item>Card</item>
+    </string-array>
+    <string-array name="payment_amount_units">
+        <item>EUR</item>
+        <item>HUF</item>
+        <item>USD</item>
+        <item>RSD</item>
+    </string-array>
+
+</resources>

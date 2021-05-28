@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1057394583756",
+    "project_id": "paymentmanagement-57868",
+    "storage_bucket": "paymentmanagement-57868.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057394583756:android:2434fea12005249c48fa69",
+        "android_client_info": {
+          "package_name": "com.example.paymentmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057394583756-mq08earvvbihth2s1dsq75efoisau1rj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paymentmanagement",
+            "certificate_hash": "9953cffafc7ec94385a2ab06d646616f96c25b7f"
+          }
+        },
+        {
+          "client_id": "1057394583756-s4an3bfobtfe9o787g9qq4prus2fdvv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1d6fWpVf_bT921Ap8x781lOqxIK4Z69k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057394583756-s4an3bfobtfe9o787g9qq4prus2fdvv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
