@@ -2,7 +2,7 @@
 TM Forum Payment Management\
 
 -Inditás és bejelentkezés/regisztráció\
-Az app elindításakor előjön az oldal, ahol be tudsz jelentkezni. Ezt Google-fiókkal, vendégként, vagy regisztrációval, de akár beléphetsz egy már elkészült fiókba a **teszter@teszt.com** és **teszt123** email-jelszó kombóval. Utóbbi azért jó, mert már tartalmaz előre felvitt adatokat az adatbázisban, a többi opciónál neked kell felvinned az első elemeket is.
+Az app elindításakor előjön az oldal, ahol be tudsz jelentkezni. Ezt Google-fiókkal, vendégként, vagy regisztrációval teheted meg, de akár beléphetsz egy már elkészült fiókba a **teszter@teszt.com** és **teszt123** email-jelszó kombóval. Utóbbi azért jó, mert már tartalmaz előre felvitt adatokat az adatbázisban, a többi opciónál neked kell felvinned az első elemeket is.
 
 -Főoldal/Home\
 Belépés után az app egy új oldalt jelenít meg, navigációs elemeket láthatsz alul, a jobb felső sarokban, illetve az app bal oldalán, ha balról jobbra swipe-olsz. A Home az a kezdő oldal, ahova belépés után is kerülsz, a Card Payments megjeleníti az összes kártyás tranzakciódat és azok adatait, a Log out pedig kijelentkeztet. Ezen kívül a jobb alsó sarokban bankkártya ikonnal ellátott floating button is a kártyás tranzakciók oldalához vezet.
