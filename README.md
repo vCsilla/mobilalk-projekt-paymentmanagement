@@ -6,7 +6,7 @@ Az app elindításakor előjön az oldal, ahol be tudsz jelentkezni. Ezt Google-
 
 -Főoldal/Home\
 Belépés után az app egy új oldalt jelenít meg, navigációs elemeket láthatsz alul, a jobb felső sarokban, illetve az app bal oldalán, ha balról jobbra swipe-olsz. A Home az a kezdő oldal, ahova belépés után is kerülsz, a Card Payments megjeleníti az összes kártyás tranzakciódat és azok adatait, a Log out pedig kijelentkeztet. Ezen kívül a jobb alsó sarokban bankkártya ikonnal ellátott floating button is a kártyás tranzakciók oldalához vezet.
-A Home oldalon kilistázódnak a Paymentjeid, _ha még nem vittél fel Paymentet, akkor még nem látszik semmi._ 
+A Home oldalon kilistázódnak a Paymentjeid, _ha még nem vittél fel Paymentet, akkor nem látszik semmi._ 
 
 -Add Payment\
 Új Payment hozzáadásához a jobb alsó sarokban lévő + jelre kell kattintanod. Ehhez meg kell adnod a fizetés nevét, összegét, valutáját, a fizetés módját, és esetleg a leírását, státuszát. A sikeres hozzáadást követően egy értesítést is kapsz az apptól, illetve a Home oldalon megjelenik az új Payment.
