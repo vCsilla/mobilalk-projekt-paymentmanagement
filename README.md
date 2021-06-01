@@ -1,5 +1,5 @@
 # Payment Management
-TM Forum Payment Management\
+TM Forum Payment Management
 
 -Inditás és bejelentkezés/regisztráció\
 Az app elindításakor előjön az oldal, ahol be tudsz jelentkezni. Ezt Google-fiókkal, vendégként, vagy regisztrációval teheted meg, de akár beléphetsz egy már elkészült fiókba a **teszter@teszt.com** és **teszt123** email-jelszó kombóval. Utóbbi azért jó, mert már tartalmaz előre felvitt adatokat az adatbázisban, a többi opciónál neked kell felvinned az első elemeket is.
